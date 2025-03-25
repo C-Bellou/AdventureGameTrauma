@@ -2,5 +2,5 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3210ACDB
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "IsMoving"
-IsMoving = false;
+/// @DnDArgument : "var" "isMoving"
+isMoving = false;
