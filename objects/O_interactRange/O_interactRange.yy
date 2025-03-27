@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_frag",
+  "%Name":"O_interactRange",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_frag",
+  "name":"O_interactRange",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"O_interactable",
-    "path":"objects/O_interactable/O_interactable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_frag",
-    "path":"sprites/S_frag/S_frag.yy",
+    "name":"S_interact",
+    "path":"sprites/S_interact/S_interact.yy",
   },
   "spriteMaskId":null,
   "visible":true,

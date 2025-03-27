@@ -15,7 +15,7 @@ if(global.showMap == true){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
 	/// @DnDHash : 0FBA1151
 	/// @DnDParent : 37F54599
-	/// @DnDArgument : "x2" "1920/32*8"
-	/// @DnDArgument : "y2" "1056/32*8"
+	/// @DnDArgument : "x2" "18440/512*8"
+	/// @DnDArgument : "y2" "15360/512*8"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle(0, 0, 1920/32*8, 1056/32*8, 0);}
+	draw_rectangle(0, 0, 18440/512*8, 15360/512*8, 0);}

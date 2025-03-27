@@ -8,14 +8,7 @@
 /// @DnDArgument : "object" "O_colider"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "object" "O_colider"
-var l40C1A87A_0 = instance_place(x + dirX*512, y + dirY*512, [O_colider]);if (!(l40C1A87A_0 > 0)){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 31A58491
-	/// @DnDParent : 40C1A87A
-	/// @DnDArgument : "msg" "isMoving"
-	show_debug_message(string(isMoving));
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
+var l40C1A87A_0 = instance_place(x + dirX*512, y + dirY*512, [O_colider]);if (!(l40C1A87A_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 062C40C9
 	/// @DnDParent : 40C1A87A

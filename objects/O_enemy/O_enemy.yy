@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_frag",
+  "%Name":"O_enemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_frag",
+  "name":"O_enemy",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,13 +28,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"HP_trauma1","filters":[],"listItems":[],"multiselect":false,"name":"HP_trauma1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"25","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_frag",
-    "path":"sprites/S_frag/S_frag.yy",
+    "name":"S_enemy",
+    "path":"sprites/S_enemy/S_enemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
