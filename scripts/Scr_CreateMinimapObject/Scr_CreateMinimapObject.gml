@@ -21,9 +21,9 @@ function Scr_CreateMinimapObject(parentObject, myColor) {	/// @DnDAction : YoY
 	/// @DnDVersion : 1
 	/// @DnDHash : 2947B040
 	/// @DnDParent : 5FDADF50
-	/// @DnDArgument : "expr" "myColor"
+	/// @DnDArgument : "expr" "parentObject"
 	/// @DnDArgument : "var" "justCreatedObject.parentInGame"
-	justCreatedObject.parentInGame = myColor;
+	justCreatedObject.parentInGame = parentObject;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

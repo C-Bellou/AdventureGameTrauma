@@ -81,9 +81,12 @@ var l5718D92B_0;l5718D92B_0 = keyboard_check(ord("Z"));if (!l5718D92B_0){	//
 			var l0A696E25_0;l0A696E25_0 = keyboard_check(ord("D"));if (!l0A696E25_0){	/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 3974C7AB
-				/// @DnDInput : 2
+				/// @DnDInput : 3
 				/// @DnDParent : 0A696E25
+				/// @DnDArgument : "expr_2" "false"
 				/// @DnDArgument : "var" "dirX"
 				/// @DnDArgument : "var_1" "dirY"
+				/// @DnDArgument : "var_2" "isMoving"
 				dirX = 0;
-				dirY = 0;}}}}
+				dirY = 0;
+				isMoving = false;}}}}

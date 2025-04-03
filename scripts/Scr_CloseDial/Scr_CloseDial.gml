@@ -9,4 +9,4 @@ function Scr_CloseDial() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 581D759C
 	/// @DnDArgument : "expr" "false"
 	/// @DnDArgument : "var" "O_dialogue.show"
-	O_dialogue.show = false;}
+	O_TextBox.show = false;}
