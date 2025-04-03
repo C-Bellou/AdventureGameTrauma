@@ -15,8 +15,8 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Manager","folderPath":"folders/Objects/Manager.yy","name":"Manager","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,6 +52,7 @@
     {"id":{"name":"O_testChara","path":"objects/O_testChara/O_testChara.yy",},},
     {"id":{"name":"O_testObj","path":"objects/O_testObj/O_testObj.yy",},},
     {"id":{"name":"O_weapon","path":"objects/O_weapon/O_weapon.yy",},},
+    {"id":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Scr_CallDial","path":"scripts/Scr_CallDial/Scr_CallDial.yy",},},
     {"id":{"name":"Scr_CloseDial","path":"scripts/Scr_CloseDial/Scr_CloseDial.yy",},},
@@ -77,6 +78,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

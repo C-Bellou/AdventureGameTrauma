@@ -28,11 +28,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"S_colider",
     "path":"sprites/S_colider/S_colider.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

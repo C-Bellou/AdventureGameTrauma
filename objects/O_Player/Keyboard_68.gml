@@ -7,3 +7,8 @@
 /// @DnDArgument : "var_1" "dirY"
 dirX = 1;
 dirY = 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDVersion : 1
+/// @DnDHash : 37FE3610
+image_angle = 0;
