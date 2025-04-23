@@ -2,8 +2,8 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 5A6291AF
 /// @DnDInput : 2
-/// @DnDArgument : "script" "Scr_CreateMinimapObjectSprite"
+/// @DnDArgument : "script" "Scr_CreateMinimapObject"
 /// @DnDArgument : "arg" "self"
-/// @DnDArgument : "arg_1" "S_playerMinimap"
-/// @DnDSaveInfo : "script" "Scr_CreateMinimapObjectSprite"
-script_execute(Scr_CreateMinimapObjectSprite, self, S_playerMinimap);
+/// @DnDArgument : "arg_1" "c_green"
+/// @DnDSaveInfo : "script" "Scr_CreateMinimapObject"
+script_execute(Scr_CreateMinimapObject, self, c_green);

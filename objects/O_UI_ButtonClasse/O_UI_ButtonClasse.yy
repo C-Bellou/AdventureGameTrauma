@@ -38,10 +38,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_UI",
-    "path":"sprites/S_UI/S_UI.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
