@@ -27,6 +27,14 @@ var l7E06366D_0 = false;l7E06366D_0 = instance_exists(O_weapon);if(!l7E06366D_
 		/// @DnDSaveInfo : "objectid" "O_weapon"
 		instance_create_layer(x + 0, y + 0, "weapon", O_weapon);
 	
+		/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+		/// @DnDVersion : 1
+		/// @DnDHash : 1E366376
+		/// @DnDApplyTo : {O_weapon}
+		/// @DnDParent : 05B27979
+		/// @DnDArgument : "speed" "0"
+		with(O_weapon) image_speed = 0;
+	
 		/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 		/// @DnDVersion : 1
 		/// @DnDHash : 024EB088
