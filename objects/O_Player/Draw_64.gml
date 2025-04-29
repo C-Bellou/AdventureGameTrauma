@@ -17,60 +17,17 @@ if(HP_Player <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 4016A50D
 	/// @DnDParent : 630BFC22
-	instance_destroy();}
+	instance_destroy();
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 165F0A87
-/// @DnDArgument : "var" "HP_count_Player"
-/// @DnDArgument : "value" "12"
-if(HP_count_Player == 12){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 40936EEB
-	/// @DnDParent : 165F0A87
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "HP_Player"
-	HP_Player += -1;}
+	/// @DnDHash : 166A5506
+	/// @DnDParent : 630BFC22
+	/// @DnDArgument : "room" "GameOver"
+	/// @DnDSaveInfo : "room" "GameOver"
+	room_goto(GameOver);}
 
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
-/// @DnDHash : 602C030A
-/// @DnDArgument : "var" "O_Player.HP_count_Player"
-/// @DnDArgument : "value" "9"
-if(O_Player.HP_count_Player == 9){	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 2AF3491F
-	/// @DnDParent : 602C030A
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "O_Player.HP_Player"
-	O_Player.HP_Player += -1;}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 39C83BEE
-/// @DnDArgument : "var" "O_Player.HP_count_Player"
-/// @DnDArgument : "value" "6"
-if(O_Player.HP_count_Player == 6){	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0A36253E
-	/// @DnDParent : 39C83BEE
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "O_Player.HP_Player"
-	O_Player.HP_Player += -1;}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 43F8D298
-/// @DnDArgument : "var" "O_Player.HP_count_Player"
-/// @DnDArgument : "value" "3"
-if(O_Player.HP_count_Player == 3){	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 630F7DD9
-	/// @DnDParent : 43F8D298
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "O_Player.HP_Player"
-	O_Player.HP_Player += -1;}
+/// @DnDHash : 432A926F
+else{}

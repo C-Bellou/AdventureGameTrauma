@@ -15,11 +15,4 @@ var l5BFEABAD_0 = collision_point(x + 0, y + 0, O_interactRange, true, 0);if((l
 		/// @DnDHash : 7097DB1E
 		/// @DnDParent : 28C16106
 		/// @DnDArgument : "event" " 0"
-		event_user( 0);
-	
-		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-		/// @DnDVersion : 1
-		/// @DnDHash : 10DB2F91
-		/// @DnDParent : 28C16106
-		/// @DnDArgument : "msg" ""event0""
-		show_debug_message(string("event0"));}}
+		event_user( 0);}}

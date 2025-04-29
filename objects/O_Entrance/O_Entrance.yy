@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Entrance",
+  "%Name":"O_entrance",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Entrance",
+  "name":"O_entrance",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_PLay",
-    "path":"sprites/S_PLay/S_PLay.yy",
+    "name":"S_entrance",
+    "path":"sprites/S_entrance/S_entrance.yy",
   },
   "spriteMaskId":null,
   "visible":true,

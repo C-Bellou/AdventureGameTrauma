@@ -18,15 +18,17 @@ draw_set_colour(button_text_color & $ffffff);draw_set_alpha(1);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 2C9707C6
-/// @DnDArgument : "x" "image_xscale*512"
+/// @DnDHash : 67BFF307
+/// @DnDArgument : "x" "image_xscale*512/2"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "image_yscale*512"
+/// @DnDArgument : "y" "image_yscale*512/2"
 /// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "xscale" "24"
+/// @DnDArgument : "yscale" "24"
 /// @DnDArgument : "caption" "ButtonText"
-draw_text(x + image_xscale*512, y + image_yscale*512, string(ButtonText) + "");
+draw_text_transformed(x + image_xscale*512/2, y + image_yscale*512/2, string(ButtonText) + "", 24, 24, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
