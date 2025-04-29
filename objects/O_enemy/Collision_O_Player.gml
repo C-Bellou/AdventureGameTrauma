@@ -6,16 +6,6 @@
 /// @DnDArgument : "var" "O_Player.HP_count_Player"
 O_Player.HP_count_Player += -1;
 
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 6AD17EAB
-/// @DnDArgument : "imageind" "-1"
-/// @DnDArgument : "imageind_relative" "1"
-/// @DnDArgument : "spriteind" "S_Life"
-/// @DnDSaveInfo : "spriteind" "S_Life"
-sprite_index = S_Life;
-image_index += -1;
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5D4F8D64
