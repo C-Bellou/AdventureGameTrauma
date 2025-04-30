@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_UI",
-    "path":"sprites/S_UI/S_UI.yy",
+    "name":"S_Button",
+    "path":"sprites/S_Button/S_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

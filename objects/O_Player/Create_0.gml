@@ -4,6 +4,6 @@
 /// @DnDInput : 2
 /// @DnDArgument : "script" "Scr_CreateMinimapObject"
 /// @DnDArgument : "arg" "self"
-/// @DnDArgument : "arg_1" "c_green"
+/// @DnDArgument : "arg_1" "c_purple"
 /// @DnDSaveInfo : "script" "Scr_CreateMinimapObject"
-script_execute(Scr_CreateMinimapObject, self, c_green);
+script_execute(Scr_CreateMinimapObject, self, c_purple);

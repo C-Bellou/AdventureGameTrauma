@@ -3,14 +3,7 @@
 /// @DnDHash : 703E5CA5
 /// @DnDArgument : "var" "open_inventory"
 /// @DnDArgument : "value" "true"
-if(open_inventory == true){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 1BCD750D
-	/// @DnDParent : 703E5CA5
-	/// @DnDArgument : "msg" ""inventaire""
-	show_debug_message(string("inventaire"));
-
-	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+if(open_inventory == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 4ED01CB8
 	/// @DnDParent : 703E5CA5
@@ -45,4 +38,31 @@ if(open_inventory == true){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Sh
 		/// @DnDArgument : "y" "130"
 		/// @DnDArgument : "caption" """"
 		/// @DnDArgument : "var" "O_Player.TestObjQuant"
-		draw_text(130, 130, string("") + string(O_Player.TestObjQuant));}}
+		draw_text(130, 130, string("") + string(O_Player.TestObjQuant));}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0B80AE2E
+	/// @DnDParent : 703E5CA5
+	/// @DnDArgument : "var" "O_Player.PotionsQuant"
+	/// @DnDArgument : "op" "4"
+	/// @DnDArgument : "value" "1"
+	if(O_Player.PotionsQuant >= 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 2E035470
+		/// @DnDParent : 0B80AE2E
+		/// @DnDArgument : "x" "120"
+		/// @DnDArgument : "y" "120"
+		/// @DnDArgument : "sprite" "S_PotionsIn"
+		/// @DnDSaveInfo : "sprite" "S_PotionsIn"
+		draw_sprite(S_PotionsIn, 0, 120, 120);
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 5CBB66B3
+		/// @DnDParent : 0B80AE2E
+		/// @DnDArgument : "x" "140"
+		/// @DnDArgument : "y" "140"
+		/// @DnDArgument : "caption" """"
+		/// @DnDArgument : "var" "O_Player.PotionsQuant"
+		draw_text(140, 140, string("") + string(O_Player.PotionsQuant));}}

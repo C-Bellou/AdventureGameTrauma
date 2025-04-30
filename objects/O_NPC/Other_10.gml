@@ -1,13 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
-/// @DnDHash : 2AF63BDA
-/// @DnDArgument : "script" "Scr_CloseDial"
-/// @DnDSaveInfo : "script" "Scr_CloseDial"
-script_execute(Scr_CloseDial);
-
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
 /// @DnDHash : 65B24DFE
+/// @DnDInput : 2
 /// @DnDArgument : "script" "Scr_CallDial"
+/// @DnDArgument : "arg" ""Bonjour""
+/// @DnDArgument : "arg_1" ""B""
 /// @DnDSaveInfo : "script" "Scr_CallDial"
-script_execute(Scr_CallDial);
+script_execute(Scr_CallDial, "Bonjour", "B");

@@ -8,5 +8,5 @@ function Scr_CloseDial() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDHash : 46CA5CD9
 	/// @DnDParent : 581D759C
 	/// @DnDArgument : "expr" "false"
-	/// @DnDArgument : "var" "O_dialogue.show"
-	O_TextBox.show = false;}
+	/// @DnDArgument : "var" "O_Dial.show"
+	O_Dial.show = false;}

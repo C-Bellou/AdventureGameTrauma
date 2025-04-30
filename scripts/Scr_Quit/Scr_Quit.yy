@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Scr_Quit",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Buttons",
+    "path":"folders/Scripts/Buttons.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

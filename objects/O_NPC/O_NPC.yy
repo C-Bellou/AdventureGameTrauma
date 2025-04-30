@@ -2,8 +2,8 @@
   "$GMObject":"",
   "%Name":"O_NPC",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_interactRange","path":"objects/O_interactRange/O_interactRange.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_NPC",
@@ -13,8 +13,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"O_interactable",
-    "path":"objects/O_interactable/O_interactable.yy",
+    "name":"O_interactableManager",
+    "path":"objects/O_interactableManager/O_interactableManager.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

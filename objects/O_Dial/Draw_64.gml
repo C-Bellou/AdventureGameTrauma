@@ -39,10 +39,10 @@ if(show == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Self
 	/// @DnDArgument : "function" "draw_text_ext"
 	/// @DnDArgument : "arg" "x+decalageX"
 	/// @DnDArgument : "arg_1" "y+decalageY"
-	/// @DnDArgument : "arg_2" "15"
-	/// @DnDArgument : "arg_3" "text_Content"
+	/// @DnDArgument : "arg_2" "text_Content"
+	/// @DnDArgument : "arg_3" "15"
 	/// @DnDArgument : "arg_4" "image_xscale*512-10"
-	draw_text_ext(x+decalageX, y+decalageY, 15, text_Content, image_xscale*512-10);
+	draw_text_ext(x+decalageX, y+decalageY, text_Content, 15, image_xscale*512-10);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
