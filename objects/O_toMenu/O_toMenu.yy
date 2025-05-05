@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_colider",
+  "%Name":"O_toMenu",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_colider",
+  "name":"O_toMenu",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,7 +28,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"S_colider",
     "path":"sprites/S_colider/S_colider.yy",

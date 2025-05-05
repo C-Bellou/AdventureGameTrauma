@@ -66,6 +66,7 @@
     {"id":{"name":"O_testObj","path":"objects/O_testObj/O_testObj.yy",},},
     {"id":{"name":"O_Teyes","path":"objects/O_Teyes/O_Teyes.yy",},},
     {"id":{"name":"O_Tmains","path":"objects/O_Tmains/O_Tmains.yy",},},
+    {"id":{"name":"O_toMenu","path":"objects/O_toMenu/O_toMenu.yy",},},
     {"id":{"name":"O_UI_Button","path":"objects/O_UI_Button/O_UI_Button.yy",},},
     {"id":{"name":"O_UI_ButtonClasse","path":"objects/O_UI_ButtonClasse/O_UI_ButtonClasse.yy",},},
     {"id":{"name":"O_UI_ButtonManager","path":"objects/O_UI_ButtonManager/O_UI_ButtonManager.yy",},},
@@ -125,11 +126,11 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},},
     {"roomId":{"name":"Shop","path":"rooms/Shop/Shop.yy",},},
     {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
-    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
