@@ -53,8 +53,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Player",
-    "path":"sprites/S_Player/S_Player.yy",
+    "name":"S_Player_front_nm",
+    "path":"sprites/S_Player_front_nm/S_Player_front_nm.yy",
   },
   "spriteMaskId":null,
   "visible":true,
