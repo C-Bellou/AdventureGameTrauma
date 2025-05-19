@@ -46,7 +46,7 @@
     {"$GMObjectProperty":"v1","%Name":"TestObjQuant","filters":[],"listItems":[],"multiselect":false,"name":"TestObjQuant","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"HP_Player","filters":[],"listItems":[],"multiselect":false,"name":"HP_Player","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"PotionsQuant","filters":[],"listItems":[],"multiselect":false,"name":"PotionsQuant","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"money","filters":[],"listItems":[],"multiselect":false,"name":"money","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"700","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"money","filters":[],"listItems":[],"multiselect":false,"name":"money","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"40","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"inShop","filters":[],"listItems":[],"multiselect":false,"name":"inShop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
