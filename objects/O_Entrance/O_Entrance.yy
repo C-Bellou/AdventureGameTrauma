@@ -34,5 +34,5 @@
     "path":"sprites/S_entrance/S_entrance.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
